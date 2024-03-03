@@ -1,0 +1,8 @@
+numpy
+matplotlib
+varname
+polars
+torch
+torchinfo
+torchmetrics
+lightning
