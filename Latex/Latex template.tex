@@ -28,6 +28,7 @@
             ]{geometry}
 \usepackage{subcaption}
 \usepackage{setspace}
+% \usepackage{mathtools}
 
 % Font size edit
 \newcommand{\fontset}[3]{\fontsize{#1}{#2}\selectfont {#3}}
@@ -80,7 +81,6 @@
 
 % --------------------------------------------------------
 % Bib setting
-% \renewcommand{\bibname}{}
 \patchcmd{\thebibliography}{\section*{\refname}}{}{}{}
 
 \begin{document}
@@ -108,8 +108,22 @@
         \vspace{4cm}
         \textbf{\Large Nguyễn Phan Gia Bảo}
         \newline
-        % \vspace{1cm}
         \textbf{\Large BI12-048}
+        \vspace{1cm}
+
+        \fontset{18}{30}{
+            \begin{minipage}{0.45\linewidth}
+                \raggedleft
+                Supervisor: \\
+                \vspace{3\baselineskip}
+            \end{minipage}\hfill
+            \begin{minipage}{0.45\linewidth}
+                Supervisor 1 name
+                Supervisor 1 lab
+                Supervisor 2 name
+                Supervisor 2 lab
+            \end{minipage}
+        }
         \date{}
     \end{center}
 \end{titlepage}
